@@ -4,10 +4,10 @@ import {Link} from "react-router-dom";
 
 
 
-const InfoButton = () => {
+const InfoButton = ({children}) => {
     return (
         <div className="infoButton">
-            <Link to="/">INFO</Link>
+            <Link to="/">{children}</Link>
         </div>
     )
 };

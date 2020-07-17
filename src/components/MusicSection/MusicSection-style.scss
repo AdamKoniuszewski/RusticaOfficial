@@ -1,0 +1,47 @@
+.SectionMusic {
+    width: 100%;
+    height: 70vh;
+    background-image: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.2) 75%, rgba(255,255,255,1) 100%),url("../../images/bg-photos/mira_profile_3960_2640.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.2) 75%, rgba(255,255,255,1) 100%),url("../../images/bg-photos/mira_profile_3960_2640.jpg");
+    background-image: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.2) 75%, rgba(255,255,255,1) 100%),url("../../images/bg-photos/mira_profile_3960_2640.jpg");
+    background-image: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.2) 75%, rgba(255,255,255,1) 100%),url("../../images/bg-photos/mira_profile_3960_2640.jpg");
+    background-size: 180vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-left: 18%;
+    box-sizing: border-box;
+
+
+    .MusicWrapper {
+        width: 750px;
+        height: 350px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .AlbumCover {
+            width: 350px;
+            height: 350px;
+            background-color: white;
+        }
+
+        .StreamList {
+            width: 400px;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-end;
+
+            .StreamButton {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: center;
+            }
+
+
+
+        }
+    }
+}

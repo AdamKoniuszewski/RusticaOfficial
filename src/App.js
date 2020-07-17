@@ -6,13 +6,14 @@ import './App.css';
 
 import LandingSection from './components/LandingSection/LandingSection-comp';
 import TourPage from "./components/TourPage/TourPage-comp";
-
+import MusicSection from "./components/MusicSection/MusicSection-comp"
 
 function App() {
   return (
     <div className="App">
         <LandingSection/> 
         <TourPage/>
+        <MusicSection />
     </div>
   );
 }

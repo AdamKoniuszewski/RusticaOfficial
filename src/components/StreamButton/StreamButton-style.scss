@@ -1,0 +1,23 @@
+.StreamButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    color: white;
+
+    h1 {
+        font-size: 24px;
+        margin-left: 0;
+    }
+
+    .ConnectToStream {
+        margin-left: 30px;
+        width: 200px;
+        height: 40px;
+        border: white solid 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

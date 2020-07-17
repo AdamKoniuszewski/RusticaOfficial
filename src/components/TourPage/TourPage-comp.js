@@ -61,7 +61,7 @@ class TourPage extends React.Component {
                             gig=><tr key={gig.id}>
                                     <td className="date">{gig.date}</td>
                                     <td className="place">{gig.place}</td>
-                                    <td className="info"><InfoButton/></td>
+                                    <td className="info"><InfoButton>INFO</InfoButton></td>
                                 </tr>)}
                     </table>
                 </div>
@@ -69,6 +69,7 @@ class TourPage extends React.Component {
                     <h1>Can't you see your date?</h1>
                     <h2>Subscribe to be first to know about new shows near you.</h2>
                     <input className="emailInput" type="email" placeholder="email"></input>
+                    <InfoButton>Subscribe</InfoButton>
                 </div>
 
 
