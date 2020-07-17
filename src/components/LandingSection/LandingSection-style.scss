@@ -1,0 +1,14 @@
+.Landing_Container {
+    height: 110vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: "/static/media/2.ce4135c7.jpg";
+    background-size: cover;
+    transition: background-image 1s ease-in-out;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding-bottom: 10vh;
+}
