@@ -10,7 +10,8 @@
 
 
     .Title {
-        width: 100%;
+        width: 1000px;
+        margin: auto;
         background-color: #576B4E;
         height: 100px;
         display: flex;
@@ -35,11 +36,11 @@
     }
 
     th {
-        border-bottom: 1px solid black;
+        border-bottom: 2px solid #576B4E;
         color:#927E5E;
     }
     td, th {
-        border-right: 1px solid black;
+        border-right: 2px solid #576B4E;
         padding: 10px;
 
         &.date {
