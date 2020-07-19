@@ -1,6 +1,7 @@
 import React from "react";
 import './TourPage-style.scss';
 import InfoButton from "../InfoButton/InfoButton-comp";
+import CustomInput from "../CustomInput/CustomInput-comp";
 
 
 class TourPage extends React.Component {
@@ -68,7 +69,7 @@ class TourPage extends React.Component {
                 <div className="TourSubscribe">
                     <h1>Can't you see your date?</h1>
                     <h2>Subscribe to be first to know about new shows near you.</h2>
-                    <input className="emailInput" type="email" placeholder="email"></input>
+                    <CustomInput className="emailInput" type="email" placeholder="email"/>
                     <InfoButton>Subscribe</InfoButton>
                 </div>
 
